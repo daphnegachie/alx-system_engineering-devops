@@ -1,5 +1,2 @@
 #!/bin/bash
-path=$(echo $PATH) # Retrieve PATH variable and store it in the 'path' variable
-IFS=':' read -ra dirs <<< "$path" # Split 'path' variable into an array of directories
-num_dirs=${#dirs[@]} # Get the number of directories in the array
-echo "There are $num_dirs directories in the PATH."
+path=$(echo $PATH) 
